@@ -1,4 +1,170 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+nav a {
+  margin: 0.2%;
+  padding: 0.5%;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+nav a:hover {
+  font-weight: bolder;
+}
+.title-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+.title-container .over-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+.title-container .contact-button {
+  border: solid lightgrey;
+  border-width: 2px;
+  background-color: white;
+  color: black;
+  font-size: 35px;
+  width: 40%;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+.artists-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  align-content: center;
+  padding-left: 25%;
+  padding-top: 20px;
+}
+.artists-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.artists-container img {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 10%;
+}
+.artists-container .artists2 {
+  margin-bottom: 50px;
+}
+.artists-container .artist {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 25px;
+}
+.artists-container .bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr {
+  width: 50%;
+}
