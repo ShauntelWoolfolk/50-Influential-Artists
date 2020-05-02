@@ -138,8 +138,6 @@ nav a:hover {
 }
 .artists-container a {
   display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   padding-top: 10px;
 }
@@ -147,7 +145,6 @@ nav a:hover {
   width: 250px;
   height: 200px;
   display: flex;
-  justify-content: center;
   align-items: center;
   border-radius: 10px;
   margin-left: 10%;
@@ -162,7 +159,6 @@ nav a:hover {
 }
 .artists-container .bio {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 hr {
