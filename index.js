@@ -253,15 +253,22 @@ function removeArtist(array, index) {
 
 /* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
-function lotsOfArt(artists, paintings){
-    
-    for (artists = 0; artists > 100; artists++){
-    return artists.names
+function lotsOfArt(array) {
+  
+  let newArray = [] 
+   
+   for (i = 0; i < array.length; i++) {
+   
+   console.log (array[i].paintings);
+   
+   if (artists[i].paintings > 100) {
+   
+  newArray.push(array[i].names)
+  
+   }
+   }
+   return newArray
   }
-    
-  }
-console.log(lotsOfArt());
-
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
 id: 21
@@ -271,18 +278,20 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-// function addArtist(.push){
+// function addArtist(){
 
-//   addArtist [
-//     "id": 21,
-//     "name": "Shauntel", 
-//     "years": "2000 - 2020",
-//     "genre": "Web Design", 
-//     "nationality": "American",
-//     "bio": "I suck at Javascript",
-//   ]
+const newArtist = [
+  {
+  "id": 21,
+  "name": "Shauntel", 
+  "years": "2000 - 2020",
+  "genre": "Web Design", 
+  "nationality": "American",
+  "bio": "I suck at Javascript",
+}
+]
+addArtists.push(newArtists);
 
-//   }
 
 
 
