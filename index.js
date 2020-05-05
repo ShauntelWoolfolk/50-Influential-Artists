@@ -216,6 +216,8 @@ console.log(artists[2].bio);
 // var next = artists[8].replace ("Vincent Van Gogh")
 // console.log(next);
 
+ artists[8] = "Vincent Van Gogh"
+
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
@@ -224,12 +226,12 @@ console.log(artists[2].bio);
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
+// 
 function getArtistByIndex(array, index) {
-  array = artists[0].name
- index = 0
- return `The artist at index ${index} is ${array}.`
+  nane = array[index].name 
+  return `The artist at index ${index} is ${array}.`
 }
-  console.log(getArtistByIndex());
+console.log(getArtistByIndex(0));
 
 
 /* Task 4: Create a function called `removeArtist` that takes two arguments:
@@ -242,8 +244,9 @@ function getArtistByIndex(array, index) {
 */
 
 function removeArtist(array, index) {
-    artists.pop()
-  }
+  array.splice(index, 1)
+
+}
 
   /**
 
